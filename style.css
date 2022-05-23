@@ -1,0 +1,46 @@
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: white;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#survey {
+  background-color: rgba(25, 25, 50, 0.8);
+  width: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+#survey-form {
+  text-align: left;
+  padding: 25px;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#second-dropdown,
+#comments,
+#submit {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#choice,
+#checkbox {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#submit {
+  background-color: rgb(55, 175, 101);
+  border: 0;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+}
